@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url(https://i.pinimg.com/originals/69/ca/d4/69cad4b7a425f8814c2753078c3fb3dd.png);
+}
+ 
+header{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 35px;
+}
+
+.mazos{
+  color: rgb(0, 47, 255);
+  text-align: left;
+  margin-left: 5%;
+  font-size: 27px;
+}
+
+.global_wrap{
+  max-width: 70%;
+  margin: 2% auto;
+}
+
+h1{
+  color: rgb(0, 0, 0) ;  
+  text-align: center;
+  margin: 7% auto; 
+}
+
+h1:hover{
+  color: rgb(255, 255, 255);
+}
+
+.legendarias_h2{
+  background: #ccc;
+  background: linear-gradient(#00ccff, #ff0062);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.menu_legendarias{
+ display: grid; 
+ grid-template-columns: repeat(5, 1fr); 
+ grid-template-rows: repeat(4, 1fr);
+ row-gap: 12px;
+
+} 
+
+.card{
+ background-image:url(https://p4.wallpaperbetter.com/wallpaper/531/679/693/wood-textures-1920x1080-abstract-textures-hd-art-wallpaper-preview.jpg) ;
+ width: 80%;
+ height: 99%;
+}
+
+.card:hover{
+  border-radius: 27px;
+}
+
+.card img{
+  width: 90%;
+}
+
+.epicas_h2{
+  color: #4b0082;
+  font-size: 2rem;
+  
+  
+}
+
+.menu_epicas{
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  margin-top: 70px;
+ }
+
+ .especiales_h2{
+  color: rgb(255, 115, 0);
+  font-size: 2rem; 
+}
+
+ .menu_especiales{
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  margin-top: 70px;
+ }
+
+ .comunes_h2{
+  color: rgb(9, 0, 88);
+  font-size: 2rem; 
+}
+
+.menu_comunes{
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  margin-top: 70px;
+ }
