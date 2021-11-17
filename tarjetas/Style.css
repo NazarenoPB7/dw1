@@ -69,7 +69,7 @@ h1:hover{
 
 .epicas_h2{
   background-color: black;
-    color: #4b0082;
+  color: #4b0082;
   font-size: 2rem;
   
   
@@ -84,6 +84,7 @@ h1:hover{
  }
 
  .especiales_h2{
+  background-color: black;
   color: rgb(255, 115, 0);
   font-size: 2rem; 
 }
@@ -97,6 +98,7 @@ h1:hover{
  }
 
  .comunes_h2{
+  background-color: black;
   color: rgb(9, 0, 88);
   font-size: 2rem; 
 }
